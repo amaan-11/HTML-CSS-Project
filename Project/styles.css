@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu',sans-serif;
+    color: rgb(235, 242, 174);
+}
+body{
+    background-color: rgb(33, 47, 56, 1);
+}
+
+nav {
+    background-color: rgb(143,178,88,255);
+    margin: 0;
+    width: 100%;
+    height: 55px;
+}
+.logo img{
+    margin: 0;
+    float: left;
+    width: 5%;
+    height: 5%;
+}
+nav ul {
+    list-style: none;
+    float: right
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding-inline: 1rem;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 0;
+    text-align: center;
+    height: 100%;
+
+}
+.homecontent p{
+    top: 78.5%;
+    left: 50%;
+    padding: 20px;
+    border: 2px solid blue;
+    max-width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homecontent img {
+    max-width: 100%;
+    width: 800px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.Major p{
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.products {
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products figure{
+    height: 50%;
+    width: 40%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products figure img{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.contactdetails h1{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.contactdetails p{
+    text-align: left;
+    margin-left: 50px;
+
+}
+.contactdetails img{
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin-right: 200px;
+
+}
